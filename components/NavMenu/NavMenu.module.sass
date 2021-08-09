@@ -1,0 +1,100 @@
+@import './../../util/vars'
+
+.navMenu
+    width: 100%
+    display: flex
+    a
+        font-family: Jost, sans-serif
+        font-weight: 700
+.drawer
+    width: 263px
+    display: flex
+    flex-direction: column
+    height: 100vh
+    gap: 43px
+
+.main
+    width: calc(100vw - 263px)
+    display: flex
+    flex-direction: column
+    
+.link
+    color: $paleGray
+    font-size: 22px
+    transition: .2s all
+    line-height: 24px
+    display: flex
+    flex-direction: row
+    gap: 25px
+    &:hover
+        color: #fff
+
+.linkList
+    width: 100%
+    display: flex
+    flex-direction: column
+    gap: 32px
+    padding-left: 26px
+
+.active
+    color: #fff
+.headerActive
+    border-radius: 22px
+    width: fit-content
+    display: flex
+    align-items: center
+    color: #ffffff
+    background-color: $elementBlack
+    padding: 8px 12px
+    gap: 10px
+    margin-left: 34px
+
+.headerLink
+    margin-right: 44px
+    font-size: 18px
+    font-weight: 700
+    color: $paleGray
+    transition: .2s all
+    cursor: pointer
+    &:hover
+        color: #fff
+
+.header
+    padding: 0 24px
+    display: flex
+    flex-direction: row
+    width: 100%
+    justify-content: space-between
+    align-items: center
+    height: 80px
+    margin-bottom: 48px
+    padding-left: 58px
+.col
+    display: flex
+
+.logo
+    display: flex
+    justify-content: center
+    align-items: center
+    padding-top: 43px
+.drawer
+    padding: 1em 2em
+    background-color: $darckBlack
+    color: white
+.drawerTitle
+    font-size: 22px
+.dropDown
+    background-color: $elementBlack
+.dropDownElement
+    padding: 0 1em
+    color: #fff
+    font-size: 18px
+    display: flex
+    align-items: center
+    gap: 6px
+    cursor: pointer
+    transition: .3s all
+    &:hover
+        background-color: $hoverBlack
+
+
